@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main (){
+	float den = 4;
+	float sum = 1;
+
+	while(den<=400) {
+	sum = sum+ (1/den);
+	den = den + 4;
+	}
+	
+	printf ("%f",sum);
+	return 0;
+}
